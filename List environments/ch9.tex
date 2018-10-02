@@ -1,0 +1,69 @@
+\documentclass{article} % Document environment
+
+\usepackage[margin=1in]{geometry}
+
+\title{List Environments}
+\author{Aakash Pahuja}
+\date{} % No date on doc
+
+\begin{document}
+
+  \maketitle
+  %To include title on top of doc
+
+  \section{Introduction}
+
+  Let's look at some of the list environment.
+
+    \subsection{Bulleted list}
+
+    \begin{itemize}
+
+      \item Red
+      \item Red2
+      \item Red3
+      \item Red4
+      \item Red5
+
+    \end{itemize}
+
+
+    \subsection{This is a numbered list}
+
+      \begin{enumerate}
+
+        \item Red
+        \item Red2
+        \item Red3
+        \item Red4
+        \item Red5
+
+      \end{enumerate}
+
+    \subsection{This is a description list}
+      \begin{description}
+        \item[Name] Your name here
+        \item[Subject] Writing with \LaTeX
+        \item[Grade] A+
+      \end{description}
+
+    \section{Nested Lists}
+
+      \begin{enumerate}
+
+        \item Text Formatting
+
+        \begin{enumerate}
+
+          \item Bold
+          \item Italics
+
+        \end{enumerate}
+
+        \item Lists
+
+      \end{enumerate}
+
+    \section{Conclusion}
+
+\end{document}
