@@ -18,7 +18,7 @@ Install latex compiler for your operating system and use it to complile .tex fil
 
 Latex compilers will give you pdf and other format files (Based on your choice).
 
-### Just for the sake of ease, I am commiting output PDF's with each .tex files in their respective folders
+#### Just for the sake of ease, I am commiting output PDF's with each .tex files in their respective folders
 
 ## Tutorial
 
