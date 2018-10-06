@@ -545,8 +545,8 @@
   \phantomsection
 }
 
-% Define a paragraph for CV
-\newenvironment{cvparagraph}{%
+% Define a summary for Resume
+\newenvironment{resumeSummary}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-3mm}
   \paragraphstyle
