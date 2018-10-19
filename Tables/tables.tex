@@ -1,0 +1,67 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+
+\title{}
+\author{Aakash Pahuja}
+\date{} % No date on doc
+
+\begin{document}
+
+\maketitle
+%To include title on top of doc
+
+\section{Introduction}
+
+
+\subsection{The Tabular Environment}
+
+\begin{tabular}{|c|l|}
+\hline
+Name & Your name here \\
+\hline
+Subject & Writing with \LaTeX \\
+\hline
+Grade & A+ \\
+\hline
+
+\end{tabular}
+
+\subsection{Floats: Table}
+
+\begin{table}[htbp]  %Preference of table placement()
+
+\caption{My Gradebook}
+
+\begin{center}
+\begin{tabular}{|c|l|}
+\hline
+Name & Your name here \\
+\hline
+Subject & Writing with \LaTeX \\
+\hline
+Grade & A+ \\
+\hline
+
+\end{tabular}
+\end{center}
+\label{tab:grades}
+\end{table}
+
+
+\subsection{References}
+
+You can see my grades in Table \ref{tab:grades}.
+
+\section{Adding spaces in between lines}
+Random line
+\smallskip %Add small space
+Another Line
+\bigskip %Add more space
+Another last line
+
+\section{Conclusion}
+
+Now I know how to create basic tables.
+
+\end{document}
